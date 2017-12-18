@@ -10,7 +10,7 @@
             -ms-transform-origin: left top;
              -o-transform-origin: left top;
                 transform-origin: left top;
-        width: 320px; /*Разрешение экрана iPhone*/
+        width: 100%; /*Разрешение экрана iPhone*/
         position: absolute;
         top: 100%;
             left: 0
