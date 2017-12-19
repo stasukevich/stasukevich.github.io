@@ -3,7 +3,7 @@
 html {
 	
 	min-width: 1300px;
-	min-height: 500px;
+	/*min-height: 500px;*/
 }
 a {
 	text-decoration: none;
