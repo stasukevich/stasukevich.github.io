@@ -548,44 +548,52 @@ width:48%;
 }
 
 
-/* дизайн кнопки */
-
-a.button11 {
-	
-  position: relative;
-  z-index: 1;
-  color: #F5AA3C;
-  font-size: 100%;
-  font-weight: 700;
-  text-decoration: none;
-  padding: .55em .5em;
-}
-a.button11:after {
-  content: "OT 400$";  /* здесь 6 букв */
-  position: absolute;
-  z-index: -1;
-  top: -2px;
-  bottom: -2px;
-  left: -2px;
-  width: calc(100% + 6*(1em*90/135) - 2px*2*2);  /* где 6*(1em*90/135), где 6 - это 6 букв, 90 - это font-size after, а 135 - это font-size родителя */
-  text-align: right;
-  color: #fff;
-  font-size: 120%;
-  padding: .25em .5em;
-  border-radius: 5px;
-  border: 3px outset gold;
-  -webkit-transform: skewX(-10deg);
-  transform: skewX(-10deg);
-  background: linear-gradient(#2A8645, #F1C064) no-repeat 100% 0;
-  background-size: calc(6*(1em*90/135) + .5em) 100%;
-  box-shadow: inset calc(-6*(1em*90/135) - .5em) 0 rgba(255,255,255,0);
-  transition: .3s;
+.buttonwork{text-decoration:none; text-align:center; 
+ padding:11px 32px; 
+ border:solid 1px #1b542b; 
+ -webkit-border-radius:11px;
+ -moz-border-radius:11px; 
+ border-radius: 11px; 
+ font:20px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#d0a040; 
+ background:#1b542b; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 2px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 2px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 2px #ffffff;  
   
-}
-
-a.button11:hover:after {
-  box-shadow: inset calc(-6*(1em*90/135) - .5em) 0 rgba(255,255,255,.2);
-}
-a.button11:active:after {
-  background-image: linear-gradient(#c61e40, #2A8645);
-}
+  }.buttonwork:hover{
+ padding:11px 32px; 
+ border:solid 1px #1b542b; 
+ -webkit-border-radius:17px;
+ -moz-border-radius:17px; 
+ border-radius: 17px; 
+ font:20px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#d0a040; 
+ background:#1b542b; 
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ }.buttonwork:active{
+ padding:11px 32px; 
+ border:solid 1px #005072; 
+ -webkit-border-radius:26px;
+ -moz-border-radius:26px; 
+ border-radius: 26px; 
+ font:19px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#d0a040; 
+ background-color:#1b542b; 
+ background-image: -moz-linear-gradient(top, #1b542b 0%, #61a519 100%); 
+ background-image: -webkit-linear-gradient(top, #1b542b 0%, #61a519 100%); 
+ background-image: -o-linear-gradient(top, #1b542b 0%, #61a519 100%); 
+ background-image: -ms-linear-gradient(top, #1b542b 0% ,#61a519 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61a519', endColorstr='#61a519',GradientType=0 ); 
+ background-image: linear-gradient(top, #1b542b 0% ,#61a519 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+  
+ }
