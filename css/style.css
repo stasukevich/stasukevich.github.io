@@ -1,4 +1,4 @@
-html {	min-width: 1300px;  max-height: 700px}  
+html {	min-width: 1300px;  }  
 
 a {
 	text-decoration: none;
@@ -6,7 +6,7 @@ a {
 
 body {
 	
-	background: url(..//images/bg.jpg) repeat-y;
+	background: url(..//images/bg.jpg) repeat-n;
    }
 
      
