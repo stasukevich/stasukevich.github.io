@@ -12,9 +12,9 @@
                 transform-origin: left top;
         /*width: 320px; Разрешение экрана iPhone*/
 	    
-        position: absolute;
+      /*  position: absolute;
         top: 100%;
-            left: 0
+            left: 0*/
     }
 } 
 
