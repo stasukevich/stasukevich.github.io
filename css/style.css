@@ -1,4 +1,4 @@
-@media screen and (orientation:landscape) and (min-width:900px;) {
+@media screen and (orientation:landscape) and (min-width:1300px;) {
     html{
 	    min-width: 1300px;
          /*-webkit-transform: rotate(90deg);
